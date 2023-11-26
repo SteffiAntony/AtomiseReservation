@@ -43,11 +43,6 @@ const Reservations = ({ reservations }) => {
                       onClick={() => handleExpand(item.id)}
                     >
                       {expandedRow === item.id ? "View less" : "View more"}
-                      {expandedRow === item.id ? (
-                        <i className="bi bi-arrow-right-circle arrow-icon"></i>
-                      ) : (
-                        <i className="bi bi-arrow-right-circle arrow-icon"></i>
-                      )}
                     </button>
                   </td>
                 </tr>
